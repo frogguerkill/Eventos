@@ -1,0 +1,20 @@
+name: Eventos
+version: 1.0
+main: eventos.Main
+api-version: 1.21
+
+commands:
+  bolao:
+    description: Comando de bolão
+  loteria:
+    description: Comando de loteria
+  destemido:
+    description: Comando do destemido
+  evento:
+    description: Comando de eventos
+
+permissions:
+  evento.admin:
+    default: op
+  loteria.admin:
+    default: op
